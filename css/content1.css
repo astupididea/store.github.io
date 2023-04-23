@@ -1,0 +1,147 @@
+/*슬라이드*/
+section {
+    margin-top: 1%;
+}
+
+.ban .image1{
+    width: 730px;
+}
+.ban .image2{
+    width: 730px;
+}
+.ban .image3{
+    width: 730px;
+}
+.ban .image4{
+    width: 730px;
+}
+.ban .image5{
+    width: 730px;
+}
+.ban .image6{
+    width: 730px;
+}
+section #container{
+    margin-bottom: 1%;
+}
+.ban .slick-dots {
+    position: absolute;
+    bottom: -35px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.ban .slick-dots li {
+    display: inline-block; width: 15px; height: 15px; margin: 5px;
+}
+.ban .slick-dots li button {
+    font-size: 0px; line-height: 0; display: block; width: 7px; height: 7px; cursor: pointer; background: #666; border-radius: 50%; border: 0;
+}
+.ban .slick-dots li.slick-active button{
+    background: #111;
+}
+
+section #container{
+  
+   
+}
+section .ban {
+    width: 50%;
+    float: left;
+}
+/*제품내용*/
+section .product{
+    display: inline-block;
+    margin-left: 4%; 
+}
+.product p{
+    line-height: 25px;
+    font-size: 15px;
+
+}
+.product .detail1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.product .detail1_a{
+    line-height: 25px;
+    font-size: 10px;
+    display: none;
+}
+.product .detail2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.product .detail3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.product .detail4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+footer .container{
+    position: absolute;
+    top: 900px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*옵션선택*/
+/* IE */
+select::-ms-expand { 
+	display: none;
+}
+.select {  
+  /*-o-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;*/
+  padding: 5px 30px 5px 10px;
+  border-radius: 4px;
+  outline: 0 none;
+  width: 400px;
+  height: 30px;
+}
+.select option {
+    padding: 3px 0;
+  }
+section .BUY{
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+  }
+  section .BUY:hover{
+    background: #333;
+    color: #fff;
+  }
+section .CART{
+    margin-top: 8px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+  }
+  section .CART:hover{
+    background: #333;
+    color: #fff;
+  }
+section .BUY p{
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+}
+section .CART p{
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer .container{
+    margin-top: 5%;
+}

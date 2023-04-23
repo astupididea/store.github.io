@@ -1,0 +1,224 @@
+/*메뉴*/
+.box{
+    width: 100%; 
+    height: 25px; 
+    background: #ddd;
+}
+.box p{    
+    font-size: 18px;
+    animation: PopUp 20s ease-in-out infinite;
+}
+@keyframes PopUp{
+    0%{
+        position: absolute;
+        left: 80%;    
+    }
+    100%{ 
+        position: absolute;
+        left: -30%;
+    }     
+}
+/*네비*/
+/*nav .filter {
+    display: inline-block;
+}*/
+nav .middle{
+    overflow: hidden;
+    clear: both;
+}
+.class1 .radius{
+    float: left;
+    width: 8%; 
+    height: 40px;
+    border-radius: 15px;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.class1 .radius:hover{
+    background: #666;
+    color: #fff;
+}
+
+.class2 .radius{
+    float: left;
+    width: 8%; 
+    height: 40px;
+    border-radius: 15px;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.class2 .radius:hover{
+    background: #666;
+    color: #fff;
+}
+
+.class3 .radius{
+    float: left;
+    width: 8%; 
+    height: 40px;
+    border-radius: 15px;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.class3 .radius:hover{
+    background: #666;
+    color: #fff;
+}
+
+.class4 .radius{
+    float: left;
+    width: 8%; 
+    height: 40px;
+    border-radius: 15px;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.class4 .radius:hover{
+    background: #666;
+    color: #fff;
+}
+
+.class5 .radius{
+    float: left;
+    width: 8%; 
+    height: 40px;
+    border-radius: 15px;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.class5 .radius:hover{
+    background: #666;
+    color: #fff;
+}
+
+.class6 .radius{
+    float: left;
+    width: 8%; 
+    height: 40px;
+    border-radius: 15px;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.class6 .radius:hover{
+    background: #666;
+    color: #fff;
+}
+
+.class7 .radius{
+    float: left;
+    width: 8%; 
+    height: 40px;
+    border-radius: 15px;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.class7 .radius:hover{
+    background: #666;
+    color: #fff;
+}
+
+.class8 .radius{
+    float: left;
+    width: 8%; 
+    height: 40px;
+    border-radius: 15px;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.class8 .radius:hover{
+    background: #666;
+    color: #fff;
+}
+
+.class9 .radius{
+    float: left;
+    width: 8%; 
+    height: 40px;
+    border-radius: 15px;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.class9 .radius:hover{
+    background: #666;
+    color: #fff;
+}
+
+/*섬네일1*/
+#sec1 #container{
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 1%;
+}
+
+#sec1 #container img{
+    width: 100%;   
+}
+#sec2 #container img{
+    width: 100%;   
+}
+.thum1{
+    width: 25%; 
+    height: 800px; 
+    background: #666;
+    float: left;
+}
+.thum2{
+    width: 25%; 
+    height: 800px; 
+    background: #777;
+    float: left;
+}
+.thum3{
+    width: 25%; 
+    height: 800px; 
+    background: #888;
+    float: left;
+}
+.thum4{
+    width: 25%; 
+    height: 800px; 
+    background: #999;
+    float: left;
+}
+/*섬네일1 텍스트*/
+.MenuName1{
+    display: inline-block;
+    width: 24.8%;
+   margin-top: 2rem;
+}
+.MenuName2{
+    display: inline-block;
+    width: 24.8%;
+}
+.MenuName3{
+    display: inline-block;
+    width: 24.8%;
+}
+.MenuName4{
+    display: inline-block;
+}
+/*섬네일2*/
+#sec2 #container{
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+

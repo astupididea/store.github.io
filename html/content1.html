@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/content1.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../slick.css">
+</head>
+<body>
+    <header>
+        <div id="container">
+            <div class="nav_left">
+                <a href="/index.html"><h3>LOGO</h3></a>        
+            </div>
+            <div class="nav_right">
+                <ul>
+                    <li>
+                        <button>
+                            <a href="/html/shop.html"><h4>SHOP</h4></a>
+                        </button>
+                    </li>
+                     <li>
+                        <button>
+                             <h4>LOOKBOOK</h4>    
+                        </button>
+                     </li>
+                      <li>
+                        <button>
+                            <h4>LOGIN</h4>        
+                        </button>
+                     </li>
+                      <li>
+                        <button>
+                            <h4>CART</h4>        
+                        </button>
+                     </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div id="container">
+            <div class="ban">
+                <div class="image1"><img src="../image/00000141.png" alt="이미지1"></div>
+                <div class="image2"><img src="../image/00000141.png" alt="이미지2"></div>
+                <div class="image3"><img src="../image/00000141.png" alt="이미지3"></div>
+                <div class="image4"><img src="../image/00000141.png" alt="이미지4"></div>
+                <div class="image5"><img src="../image/00000141.png" alt="이미지5"></div>
+                <div class="image6"><img src="../image/00000141.png" alt="이미지6"></div>
+            </div>
+            <div class="product">
+                <h2>DRESS</h2>
+                <p>화이트 드레스</p>
+                <p>\95000</p> 
+                <p class="detail1">제품설명</p>
+                <p class="detail1_a">
+                    - 텐셀 혼방소재로 은은한 광택감과 함께 자연스럽게 흐르는 소재감<br>
+                    - 살짝 비치는 시어한 소재로 한여름에도 시원하게 착용가능한 아이템<br>
+                    - 완성도 높은 카라 라인과 양사이드 트임 디테일<br>
+                    - 포인트가되는 컬러감으로 아우터 및 단독착용으로 다양한 스타일링 가능<br>
+                    ※ 소재 특성상 전 컬러 비침이 있는 제품이니 구매에 참고 바랍니다.<br>
+                </p>
+                <p class="detail2">제품정보</p>
+                <p class="detail3">사이즈 가이드</p>  
+                <p class="detail4">교환/반품 안내</p>
+                <p class="detail4">색상</p>
+                <select name="option" class="select">
+                    <option value="" class="f1">옵션을 선택하세요.</option>
+                    <option value="흰색" class="f2" disabled link_image="">---------------------------</option>
+                    <option value="흰색" class="f2">흰색</option>
+                    <option value="흰색" class="f3">검정색</option>
+                    <option value="흰색" class="f4">회색</option>
+                </select>
+                <div class="BUY">
+                    <p>BUY NOW</p>
+                </div>
+                <div class="CART">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="SNS">
+                <div class="insta">
+                    <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                </div>
+                <div class="naver">
+                    <a href="https://www.naver.com"target="_blank"><i class="fa-solid fa-n"></i></a>
+                </div>
+            </div>
+            <div class="p1">
+                <p>AUTHENTIC WARDROBE REPRESENTATIVE 정유진</p>            
+                <p>BUSINESS NUMBER 875-88-00789 ONLINE BUSINESS 2017-서울성동-1511</p>       
+                <p>3F 306, 26 SANGWON 1-GIL, SEONGDONG-GU, SEOUL, REPUBLIC OF KOREA</p>         
+                <p>T.070-0000-0000 E.info_@authenticwardrobe.co.kr</p>
+                <p>Copyright Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!--script-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../slick.min.js"></script>
+    <script>
+        $('.ban').slick({
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            /*autoplay: true,
+            autoplaySpeed: 3000,*/
+            arrows: false,
+            dots: true
+        }); 
+        
+        $(".product .detail1").click(function(e){
+        e.preventDefault();
+        //$("#cont_nav").css("display","block");
+        //$("#cont_nav").show();
+        //$("#cont_nav").fadeIn();
+        //$("#cont_nav").slideDown();
+        //$("#cont_nav").toggle();
+        //$("#cont_nav").fadeToggle();
+        $(".detail1_a").slideToggle(200);
+        $(this).toggleClass("on");
+        });
+        $(".BUY").click(function(e){
+        e.preventDefault();
+        alert("옵션을 선택해주세요.")
+        });
+        $(".CART").click(function(e){
+        e.preventDefault();
+        alert("옵션을 선택해주세요.")
+        }); 
+    </script>
+</body>
+</html>

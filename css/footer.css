@@ -1,0 +1,28 @@
+footer .container{
+    height: 120px;
+}
+footer .p1{
+    font-size: 10px;
+    text-align: center;
+
+    /*position: absolute; 
+    left: 50%;
+    bottom: 1rem;
+    transform: translateX(-50%);*/
+}
+.SNS{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.insta{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 10px;
+
+
+}
+.naver{
+    display: inline-block;
+    font-size: 10px;
+}
